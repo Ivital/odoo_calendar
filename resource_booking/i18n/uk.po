@@ -1197,3 +1197,73 @@ msgstr ""
 #: model:ir.model.fields,help:resource_booking.field_resource_booking__partner_ids
 msgid "Who will attend this booking?"
 msgstr "Хто буде присутній на цьому бронюванні?"
+
+#. module: resource_booking
+#. odoo-python
+#: code:addons/resource_booking/models/resource_booking_combination.py:0
+msgid "%(resources)s (using calendar %(calendar)s)"
+msgstr "%(resources)s (використовується календар %(calendar)s)"
+
+#. module: resource_booking
+#. odoo-python
+#: code:addons/resource_booking/models/resource_booking.py:0
+msgid ""
+"Cannot schedule these bookings because no resources are selected for them:\n"
+"\n"
+"- %s"
+msgstr ""
+"Не можна запланувати ці бронювання, оскільки для них не вибрано ресурси:\n"
+"\n"
+"- %s"
+
+#. module: resource_booking
+#. odoo-python
+#: code:addons/resource_booking/models/resource_booking.py:0
+msgid ""
+"Cannot schedule these bookings because they do not fit in their type or resources calendars, or because all resources are busy:\n"
+"\n"
+"- %s"
+msgstr ""
+"Не можна запланувати ці бронювання, оскільки вони не вписуються у календар свого типу або ресурсів, або всі ресурси зайняті:\n"
+"\n"
+"- %s"
+
+#. module: resource_booking
+#. odoo-python
+#: code:addons/resource_booking/models/mail_activity.py:0
+msgid "Feedback: %(feedback)s"
+msgstr "Відгук: %(feedback)s"
+
+#. module: resource_booking
+#. odoo-python
+#: code:addons/resource_booking/models/resource_booking.py:0
+msgid "No resource combinations available on %s"
+msgstr "На %s немає доступних комбінацій ресурсів"
+
+#. module: resource_booking
+#. odoo-python
+#: code:addons/resource_booking/models/resource_booking.py:0
+msgid "Schedule booking"
+msgstr "Запланувати бронювання"
+
+#. module: resource_booking
+#. odoo-python
+#: code:addons/resource_booking/wizard/mail_activity_schedule.py:0
+msgid ""
+"Scheduling an activity using the booking is not possible on more than one "
+"record."
+msgstr ""
+"Планування активності через бронювання неможливе більш ніж для одного "
+"запису."
+
+#. module: resource_booking
+#. odoo-python
+#: code:addons/resource_booking/models/calendar_event.py:0
+msgid ""
+"You are not allowed to alter these bookings because they exceeded their modification deadlines:\n"
+"\n"
+"- %s"
+msgstr ""
+"Вам не дозволено змінювати ці бронювання, оскільки минув строк їх зміни:\n"
+"\n"
+"- %s"

@@ -99,3 +99,9 @@ msgid ""
 msgstr ""
 "Якщо позначено, раніше імпортовані події, відсутні в цьому імпорті, буде "
 "видалено"
+
+#. module: calendar_import_ics
+#. odoo-python
+#: code:addons/calendar_import_ics/wizards/wizard_import_ics.py:0
+msgid "Only ics files are supported"
+msgstr "Підтримуються лише файли ics"

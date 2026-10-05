@@ -213,3 +213,45 @@ msgid ""
 msgstr ""
 "Рік, для якого потрібно створити державні свята. Типово — рік, що настає "
 "після року шаблону."
+
+#. module: calendar_public_holiday
+#. odoo-python
+#: code:addons/calendar_public_holiday/models/calendar_public_holiday_line.py:0
+msgid ""
+"Dates of holidays should be the same year as the calendar year they are "
+"being assigned to"
+msgstr ""
+"Дати свят мають бути в тому самому році, що й календарний рік, до якого їх "
+"призначено"
+
+#. module: calendar_public_holiday
+#. odoo-python
+#: code:addons/calendar_public_holiday/wizards/calendar_public_holiday_next_year_wizard.py:0
+msgid "New public holidays"
+msgstr "Нові святкові дні"
+
+#. module: calendar_public_holiday
+#. odoo-python
+#: code:addons/calendar_public_holiday/wizards/calendar_public_holiday_next_year_wizard.py:0
+msgid ""
+"No Public Holidays found as template. Please create the first Public "
+"Holidays manually."
+msgstr ""
+"Не знайдено державних свят як шаблону. Створіть перші державні свята вручну."
+
+#. module: calendar_public_holiday
+#. odoo-python
+#: code:addons/calendar_public_holiday/models/calendar_public_holiday.py:0
+msgid "You can't create duplicate public holiday per year and/or country"
+msgstr "Не можна створювати дублікати державних свят за роком та/або країною"
+
+#. module: calendar_public_holiday
+#. odoo-python
+#: code:addons/calendar_public_holiday/wizards/calendar_public_holiday_next_year_wizard.py:0
+msgid ""
+"You cannot use as template the public holidays of a year that includes "
+"public holidays on 29th of February (2016, 2020...), please select a "
+"template from another year."
+msgstr ""
+"Не можна використовувати як шаблон святкові дні року, який містить святкові "
+"дні 29 лютого (2016, 2020...). Виберіть шаблон іншого року."
