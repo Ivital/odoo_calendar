@@ -69,3 +69,18 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__import_ics_filename
+msgid "Import Ics Filename"
+msgstr "Ім’я файлу імпорту ICS"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__do_remove_old_event
+msgid "Remove old events?"
+msgstr "Видалити старі події?"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__import_start_date
+msgid "Start Import Date"
+msgstr "Дата початку імпорту"

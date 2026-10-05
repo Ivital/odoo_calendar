@@ -58,3 +58,18 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:calendar_export_ics.field_calendar_export_ics__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: calendar_export_ics
+#: model:ir.model.fields,field_description:calendar_export_ics.field_calendar_export_ics__export_ics_filename
+msgid "Export Ics Filename"
+msgstr "Ім’я файлу експорту ICS"
+
+#. module: calendar_export_ics
+#: model_terms:ir.ui.view,arch_db:calendar_export_ics.calendar_export_ics_form
+msgid "Generate ICS File"
+msgstr "Створити файл ICS"
+
+#. module: calendar_export_ics
+#: model:ir.model.fields,field_description:calendar_export_ics.field_calendar_export_ics__export_ics_file
+msgid "Ics Exported File"
+msgstr "Експортований файл ICS"

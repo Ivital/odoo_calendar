@@ -632,3 +632,388 @@ msgstr "Перегляд"
 #: model:ir.model.fields,field_description:resource_booking.field_resource_booking_type__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.alert_availability_lost
+msgid ""
+"<br/>\n"
+"                        Error details:"
+msgstr ""
+"<br/>\n"
+"                        Деталі помилки:"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid ""
+"<i class=\"fa fa-calendar\"/>\n"
+"                            Reschedule"
+msgstr ""
+"<i class=\"fa fa-calendar\"/>\n"
+"                            Перепланувати"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid ""
+"<i class=\"fa fa-calendar\"/>\n"
+"                            Schedule"
+msgstr ""
+"<i class=\"fa fa-calendar\"/>\n"
+"                            Запланувати"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid ""
+"<i class=\"fa fa-comment\"/>\n"
+"                        Feedback"
+msgstr ""
+"<i class=\"fa fa-comment\"/>\n"
+"                        Відгук"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid ""
+"<i class=\"fa fa-times\"/>\n"
+"                                Cancel this booking"
+msgstr ""
+"<i class=\"fa fa-times\"/>\n"
+"                                Скасувати це бронювання"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid ""
+"<i class=\"fa fa-times\"/>\n"
+"                            Cancel"
+msgstr ""
+"<i class=\"fa fa-times\"/>\n"
+"                            Скасувати"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_header
+msgid "<small class=\"text-end\">Stage:</small>"
+msgstr "<small class=\"text-end\">Етап:</small>"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_view_form
+msgid "<span>Preview</span>"
+msgstr "<span>Попередній перегляд</span>"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "<strong>Advice:</strong>"
+msgstr "<strong>Рекомендація:</strong>"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "<strong>Booked resources:</strong>"
+msgstr "<strong>Заброньовані ресурси:</strong>"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "<strong>Dates:</strong>"
+msgstr "<strong>Дати:</strong>"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "<strong>Duration:</strong>"
+msgstr "<strong>Тривалість:</strong>"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "<strong>Meeting URL:</strong>"
+msgstr "<strong>URL зустрічі:</strong>"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "<strong>Requested by:</strong>"
+msgstr "<strong>Запросив(ла):</strong>"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.alert_availability_lost
+msgid "<strong>The chosen schedule is no longer available.</strong>"
+msgstr "<strong>Вибраний графік більше недоступний.</strong>"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.scheduling_calendar
+msgid "All times are displayed using this timezone:"
+msgstr "Усі часи відображаються в цьому часовому поясі:"
+
+#. module: resource_booking
+#: model:ir.model.fields,field_description:resource_booking.field_resource_booking_type__resource_calendar_id
+msgid "Availability Calendar"
+msgstr "Календар доступності"
+
+#. module: resource_booking
+#: model:ir.model.fields,field_description:resource_booking.field_resource_booking_type__combination_rel_ids
+msgid "Available resource combinations"
+msgstr "Доступні комбінації ресурсів"
+
+#. module: resource_booking
+#: model:ir.model.fields,field_description:resource_booking.field_resource_booking__booking_activity_ids
+msgid "Booking Activities"
+msgstr "Активності бронювання"
+
+#. module: resource_booking
+#: model:ir.model.fields,field_description:resource_booking.field_resource_booking_type__combination_assignment
+msgid "Combination Assignment"
+msgstr "Призначення комбінації"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_view_form
+msgid ""
+"Confirm that the requesting partner and yourself will attend the scheduled "
+"meeting."
+msgstr ""
+"Підтвердьте, що партнер-запитувач і ви відвідаєте заплановану зустріч."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_header
+msgid "Current state of this booking"
+msgstr "Поточний стан цього бронювання"
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__access_url
+msgid "Customer Portal URL"
+msgstr "URL порталу клієнта"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.message_combination_assigned
+msgid ""
+"Dear user,\n"
+"            <br/>\n"
+"            You have been assigned to the"
+msgstr ""
+"Шановний користувачу,\n"
+"            <br/>\n"
+"            Вас призначено до"
+
+#. module: resource_booking
+#: model:ir.model.fields,field_description:resource_booking.field_resource_booking_type__alarm_ids
+msgid "Default reminders"
+msgstr "Нагадування за замовчуванням"
+
+#. module: resource_booking
+#: model_terms:ir.actions.act_window,help:resource_booking.resource_booking_combination_action
+msgid "Define bookable resource combinations."
+msgstr "Визначити комбінації ресурсів для бронювання."
+
+#. module: resource_booking
+#: model_terms:ir.actions.act_window,help:resource_booking.resource_booking_type_action
+msgid "Define resource booking types."
+msgstr "Визначити типи бронювання ресурсів."
+
+#. module: resource_booking
+#: model_terms:ir.actions.act_window,help:resource_booking.resource_booking_action
+msgid "Define resource bookings."
+msgstr "Визначити бронювання ресурсів."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__activity_type_icon
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__activity_exception_icon
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__message_needaction
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__message_has_error
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "If you cancel this booking:"
+msgstr "Якщо скасувати це бронювання:"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_view_form
+msgid "Invite requesting partner to portal."
+msgstr "Запросити контрагента-заявника до порталу."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "It will be unscheduled."
+msgstr "Буде знято з планування."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "It will disappear from your bookings list."
+msgstr "Він зникне зі списку ваших бронювань."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_view_form
+msgid "Manually assigned:"
+msgstr "Призначено вручну:"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "Message and communication history"
+msgstr "Історія повідомлень і комунікації"
+
+#. module: resource_booking
+#: model:ir.model.fields,field_description:resource_booking.field_resource_booking_type__modifications_deadline
+msgid "Modifications Deadline"
+msgstr "Кінцевий строк змін"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.scheduling_calendar
+msgid "No free slots found this month."
+msgstr "Цього місяця немає вільних слотів."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__message_needaction_counter
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__message_has_error_counter
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_view_form
+msgid "Open a calendar to schedule a meeting for this booking request."
+msgstr "Відкрити календар для планування зустрічі за цим запитом бронювання."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_portal_form
+msgid "Please confirm this is really what you want."
+msgstr "Будь ласка, підтвердьте, що це справді те, чого ви хочете."
+
+#. module: resource_booking
+#: model:ir.model.fields.selection,name:resource_booking.selection__resource_booking_type__combination_assignment__random
+msgid "Randomly: order is not important"
+msgstr "Випадково: порядок неважливий"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_view_form
+msgid "Resource Booking Name"
+msgstr "Назва бронювання ресурсу"
+
+#. module: resource_booking
+#: model:ir.model.fields,field_description:resource_booking.field_resource_booking_combination__type_rel_ids
+msgid "Resource booking types"
+msgstr "Типи бронювання ресурсів"
+
+#. module: resource_booking
+#: model:ir.model.fields,field_description:resource_booking.field_resource_booking__combination_id
+msgid "Resources combination"
+msgstr "Комбінація ресурсів"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_view_search
+msgid "Scheduled or confirmed"
+msgstr "Заплановано або підтверджено"
+
+#. module: resource_booking
+#: model:ir.model.fields.selection,name:resource_booking.selection__resource_booking_type__combination_assignment__sorted
+msgid "Sorted: pick the first one that is free"
+msgstr "Відсортовано: вибрати перший вільний"
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__activity_state
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.portal_my_bookings
+msgid "There are currently no bookings for your account."
+msgstr "Наразі у вашому обліковому записі немає бронювань."
+
+#. module: resource_booking
+#: model_terms:ir.actions.act_window,help:resource_booking.resource_booking_type_action
+msgid ""
+"These records categorize resource bookings and apply restrictions to them, "
+"such as available resource combinations, availability schedules and interval"
+" duration."
+msgstr ""
+"Ці записи класифікують бронювання ресурсів і накладають обмеження, як-от "
+"доступні комбінації ресурсів, графіки доступності та тривалість інтервалу."
+
+#. module: resource_booking
+#: model_terms:ir.actions.act_window,help:resource_booking.resource_booking_combination_action
+msgid ""
+"These records define resource combinations that can be booked together in "
+"specified schedules and intervals."
+msgstr ""
+"Ці записи визначають комбінації ресурсів, які можна бронювати разом за "
+"визначеними розкладами та інтервалами."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_view_form
+msgid ""
+"This will remove the associated meeting to unschedule the booking. Are you "
+"sure?"
+msgstr ""
+"Це видалить пов’язану зустріч і скасує планування бронювання. Ви впевнені?"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.scheduling_calendar
+msgid ""
+"Try next month\n"
+"                    <i class=\"fa fa-chevron-right\"/>"
+msgstr ""
+"Спробувати наступного місяця\n"
+"                    <i class=\"fa fa-chevron-right\"/>"
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__activity_exception_decoration
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_view_form
+msgid "Unschedule this booking and archive it."
+msgstr "Зняти це бронювання з планування та архівувати."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.resource_booking_view_form
+msgid "Unschedule this booking."
+msgstr "Зняти це бронювання з планування."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__website_message_ids
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: resource_booking
+#: model_terms:ir.actions.act_window,help:resource_booking.resource_booking_action
+msgid ""
+"When scheduled, resources will be blocked. When pending, it means the "
+"requester didn't place the booking yet."
+msgstr ""
+"Після планування ресурси блокуються. Стан «очікує» означає, що запитувач ще "
+"не створив бронювання."
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.scheduling_calendar
+msgid "You are about to confirm this booking:"
+msgstr "Ви збираєтеся підтвердити це бронювання:"
+
+#. module: resource_booking
+#: model_terms:ir.ui.view,arch_db:resource_booking.message_combination_assigned
+msgid "because you belong to the chosen resource combination:"
+msgstr "тому що ви належите до вибраної комбінації ресурсів:"
