@@ -49,3 +49,23 @@ msgstr "Імпорт ICS-файлу"
 #: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__partner_id
 msgid "Partner"
 msgstr "Партнер"
+
+#. module: calendar_import_ics
+#: model_terms:ir.ui.view,arch_db:calendar_import_ics.calendar_import_ics_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__import_end_date
+msgid "End Import Date"
+msgstr "Кінцева дата імпорту"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

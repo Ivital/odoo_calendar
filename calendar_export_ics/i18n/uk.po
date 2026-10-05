@@ -43,3 +43,18 @@ msgstr "Експорт в ICS-файл"
 #: model:ir.model.fields,field_description:calendar_export_ics.field_calendar_export_ics__partner_id
 msgid "Partner"
 msgstr "Партнер"
+
+#. module: calendar_export_ics
+#: model:ir.model.fields,field_description:calendar_export_ics.field_calendar_export_ics__export_end_date
+msgid "End Export Date"
+msgstr "Кінцева дата експорту"
+
+#. module: calendar_export_ics
+#: model:ir.model.fields,field_description:calendar_export_ics.field_calendar_export_ics__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: calendar_export_ics
+#: model:ir.model.fields,field_description:calendar_export_ics.field_calendar_export_ics__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

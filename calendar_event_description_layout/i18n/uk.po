@@ -17,3 +17,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar_event_description_layout.view_calendar_event_form
 msgid "Description"
 msgstr "Опис"
+
+#. module: calendar_event_description_layout
+#: model_terms:ir.ui.view,arch_db:calendar_event_description_layout.view_calendar_event_form
+msgid "Add description"
+msgstr "Додати опис"
