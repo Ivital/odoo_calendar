@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_event__event_identifier
+msgid "Event Id"
+msgstr "ID події"
+
+#. module: calendar_import_ics
+#: model_terms:ir.ui.view,arch_db:calendar_import_ics.calendar_import_ics_form
+msgid "Import"
+msgstr "Імпорт"
+
+#. module: calendar_import_ics
+#: model:ir.actions.act_window,name:calendar_import_ics.action_import_ics_wizard
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__import_ics_file
+#: model:ir.ui.menu,name:calendar_import_ics.menu_calendar_import_ics
+msgid "Import Ics File"
+msgstr "Імпорт ICS-файлу"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__partner_id
+msgid "Partner"
+msgstr "Партнер"
