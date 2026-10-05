@@ -1017,3 +1017,183 @@ msgstr "Ви збираєтеся підтвердити це бронюванн
 #: model_terms:ir.ui.view,arch_db:resource_booking.message_combination_assigned
 msgid "because you belong to the chosen resource combination:"
 msgstr "тому що ви належите до вибраної комбінації ресурсів:"
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__duration
+msgid ""
+"Amount of time that the resources will be booked and unavailable for others."
+msgstr ""
+"Період часу, протягом якого ресурси будуть заброньовані й недоступні іншим."
+
+#. module: resource_booking
+#: model:ir.model,name:resource_booking.model_resource_booking_combination
+msgid "Bookable resource combinations"
+msgstr "Комбінації ресурсів для бронювання"
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__duration
+msgid "Booking default duration."
+msgstr "Типова тривалість бронювання."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__booking_ids
+msgid "Bookings available for this type"
+msgstr "Бронювання, доступні для цього типу"
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__combination_assignment
+msgid ""
+"Choose how to auto-assign resource combinations. It has no effect if "
+"assigned manually."
+msgstr ""
+"Виберіть спосіб автоматичного призначення комбінацій ресурсів. Не впливає на"
+" ручне призначення."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__company_id
+msgid "Company where this booking type is available."
+msgstr "Компанія, у якій доступний цей тип бронювання."
+
+#. module: resource_booking
+#: model:ir.model.constraint,message:resource_booking.constraint_resource_booking_type_duration_positive
+msgid "Duration must be positive."
+msgstr "Тривалість має бути додатною."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_combination__forced_calendar_id
+msgid "Force a specific calendar, instead of combining the resources'."
+msgstr ""
+"Примусово використовувати конкретний календар замість об’єднання календарів "
+"ресурсів."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__slot_duration
+msgid "Interval offered to start each resource booking."
+msgstr "Інтервал, доступний для початку кожного бронювання ресурсу."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__name
+msgid "Leave empty to autogenerate a booking name."
+msgstr "Залиште порожнім для автоматичного створення назви бронювання."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__meeting_id
+msgid "Meeting confirmed for this booking."
+msgstr "Зустріч для цього бронювання підтверджено."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__alarm_ids
+msgid "Meetings will be created with these reminders by default."
+msgstr "Зустрічі за замовчуванням створюватимуться з цими нагадуваннями."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__categ_ids
+msgid "Meetings will be created with these tags by default."
+msgstr "За замовчуванням зустрічі створюватимуться з цими тегами."
+
+#. module: resource_booking
+#: model:ir.model.constraint,message:resource_booking.constraint_resource_booking_combination_required_if_event
+msgid "Missing resource booking combination."
+msgstr "Відсутня комбінація ресурсів для бронювання."
+
+#. module: resource_booking
+#: model:ir.model.constraint,message:resource_booking.constraint_resource_booking_unique_meeting_id
+msgid "Only one event per resource booking can exist."
+msgstr "Для одного бронювання ресурсу може існувати лише одна подія."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__state
+msgid ""
+"Pending: No meeting scheduled.\n"
+"Scheduled: The requester has not confirmed attendance yet.\n"
+"Confirmed: Meeting scheduled, and requester attendance confirmed.\n"
+"Canceled: Meeting removed, booking archived."
+msgstr ""
+"Очікує: зустріч не заплановано.\n"
+"Заплановано: заявник ще не підтвердив участь.\n"
+"Підтверджено: зустріч заплановано, участь заявника підтверджено.\n"
+"Скасовано: зустріч видалено, бронювання архівовано."
+
+#. module: resource_booking
+#: model:ir.model,name:resource_booking.model_resource_booking_type_combination_rel
+msgid "Resource booking type relation with combinations"
+msgstr "Зв’язок типу бронювання ресурсів із комбінаціями"
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_combination__type_rel_ids
+msgid "Resource booking types where this combination is available."
+msgstr "Типи бронювання ресурсів, для яких доступна ця комбінація."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__combination_rel_ids
+msgid "Resource combinations available for this type of bookings."
+msgstr "Комбінації ресурсів, доступні для цього типу бронювання."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_combination__resource_ids
+msgid "Resources that must be free to be booked together."
+msgstr "Ресурси, які мають бути вільними для спільного бронювання."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__resource_calendar_id
+msgid "Restrict bookings to this schedule."
+msgstr "Обмежити бронювання цим розкладом."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__requester_advice
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__requester_advice
+msgid ""
+"Text that will appear by default in portal invitation emails and in calendar"
+" views for scheduling."
+msgstr ""
+"Текст, який за замовчуванням з’являтиметься в листах-запрошеннях на портал і"
+" в календарних представленнях для планування."
+
+#. module: resource_booking
+#: model:res.groups,comment:resource_booking.group_user
+msgid "Users allowed to book resources"
+msgstr "Користувачі, яким дозволено бронювати ресурси"
+
+#. module: resource_booking
+#: model:res.groups,comment:resource_booking.group_manager
+msgid "Users allowed to manage resource booking configurations."
+msgstr ""
+"Користувачі, яким дозволено керувати конфігураціями бронювання ресурсів."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__combination_auto_assign
+msgid ""
+"When checked, resource combinations will be (un)assigned automatically based"
+" on their availability during the booking dates."
+msgstr ""
+"Якщо позначено, комбінації ресурсів автоматично "
+"призначатимуться/зніматимуться відповідно до їх доступності на дати "
+"бронювання."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking_type__modifications_deadline
+msgid ""
+"When this deadline has been exceeded, if a booking was not yet confirmed, it"
+" will be canceled automatically. Also, only booking managers will be able to"
+" unschedule or reschedule them. The value is expressed in hours."
+msgstr ""
+"Якщо цей граничний строк минув, а бронювання ще не підтверджено, його буде "
+"автоматично скасовано. Крім того, лише менеджери бронювань зможуть скасувати"
+" планування або перепланувати такі бронювання. Значення вказується в "
+"годинах."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__user_id
+msgid ""
+"Who organized this booking? Usually whoever created the record. It will "
+"appear as the calendar event organizer, when scheduled, and calendar "
+"notifications will be sent in his/her name."
+msgstr ""
+"Хто організував це бронювання? Зазвичай це той, хто створив запис. Після "
+"планування він відображатиметься як організатор події календаря, а "
+"сповіщення календаря надсилатимуться від його імені."
+
+#. module: resource_booking
+#: model:ir.model.fields,help:resource_booking.field_resource_booking__partner_ids
+msgid "Who will attend this booking?"
+msgstr "Хто буде присутній на цьому бронюванні?"

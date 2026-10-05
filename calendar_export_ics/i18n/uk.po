@@ -73,3 +73,9 @@ msgstr "Створити файл ICS"
 #: model:ir.model.fields,field_description:calendar_export_ics.field_calendar_export_ics__export_ics_file
 msgid "Ics Exported File"
 msgstr "Експортований файл ICS"
+
+#. module: calendar_export_ics
+#: model:ir.model,name:calendar_export_ics.model_calendar_export_ics
+#: model:res.groups,name:calendar_export_ics.group_calendar_export
+msgid "Calendar Export Ics"
+msgstr "Експорт календаря ICS"

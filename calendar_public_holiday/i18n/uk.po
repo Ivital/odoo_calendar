@@ -185,3 +185,31 @@ msgstr ""
 "                        (якщо вибрати шаблони 2012 і 2015 років для однієї країни,\n"
 "                        буде враховано\n"
 "                        лише шаблони 2015 року)."
+
+#. module: calendar_public_holiday
+#: model:ir.model,name:calendar_public_holiday.model_calendar_public_holiday_next_year
+msgid "Create Public Holiday From Existing Ones"
+msgstr "Створити державне свято з наявних"
+
+#. module: calendar_public_holiday
+#: model:ir.model.fields,help:calendar_public_holiday.field_calendar_public_holiday_next_year__public_holiday_ids
+msgid ""
+"Select the public holidays to use as template. If not set, latest public "
+"holidays of each country will be used. Only the last templates of each "
+"country for each year will be taken into account (If you select templates "
+"from 2012 and 2015, only the templates from 2015 will be taken into account."
+msgstr ""
+"Виберіть державні свята, які слід використовувати як шаблон. Якщо нічого не "
+"вибрано, використовуватимуться найновіші державні свята кожної країни. Для "
+"кожної країни та кожного року враховуватимуться лише останні шаблони (якщо "
+"вибрати шаблони за 2012 і 2015 роки, враховуватимуться лише шаблони за 2015 "
+"рік)."
+
+#. module: calendar_public_holiday
+#: model:ir.model.fields,help:calendar_public_holiday.field_calendar_public_holiday_next_year__year
+msgid ""
+"Year for which you want to create the public holidays. By default, the year "
+"following the template."
+msgstr ""
+"Рік, для якого потрібно створити державні свята. Типово — рік, що настає "
+"після року шаблону."

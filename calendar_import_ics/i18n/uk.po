@@ -84,3 +84,18 @@ msgstr "Видалити старі події?"
 #: model:ir.model.fields,field_description:calendar_import_ics.field_calendar_import_ics__import_start_date
 msgid "Start Import Date"
 msgstr "Дата початку імпорту"
+
+#. module: calendar_import_ics
+#: model:ir.model,name:calendar_import_ics.model_calendar_import_ics
+#: model:res.groups,name:calendar_import_ics.group_calendar_import
+msgid "Calendar Import Ics"
+msgstr "Імпорт календаря ICS"
+
+#. module: calendar_import_ics
+#: model:ir.model.fields,help:calendar_import_ics.field_calendar_import_ics__do_remove_old_event
+msgid ""
+"If checked, the previously imported events that are not in this import will "
+"be deleted"
+msgstr ""
+"Якщо позначено, раніше імпортовані події, відсутні в цьому імпорті, буде "
+"видалено"
